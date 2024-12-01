@@ -10,6 +10,8 @@ import skillImages from './components/data/SkillImages'
 import Image from './components/Image'
 import Description from './components/Experience/Description'
 import Project from './components/Projects/Project'
+import ProjectBox from './components/Projects/ProjectBox'
+import Projects from './components/data/Projects'
 
 const App = () => {
   return (
@@ -38,7 +40,9 @@ const App = () => {
         </Experience>
       </MainBox>
       <MainBox className='bg-gray-800 min-h-screen'>
-          <Project />
+          <Project>
+            <ProjectBox projects={Projects}/> 
+          </Project>
       </MainBox>
     </div>
   )
