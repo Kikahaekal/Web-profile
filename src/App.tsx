@@ -12,6 +12,9 @@ import Description from './components/Experience/Description'
 import Project from './components/Projects/Project'
 import ProjectBox from './components/Projects/ProjectBox'
 import Projects from './components/data/Projects'
+import Educations from './components/Educations/Educations'
+import TimelineBox from './components/Educations/TimelineBox'
+import Institutions from './components/data/Institutions'
 
 const App = () => {
   return (
@@ -43,6 +46,11 @@ const App = () => {
           <Project>
             <ProjectBox projects={Projects}/> 
           </Project>
+      </MainBox>
+      <MainBox className='bg-white min-h-screen'>
+          <Educations>
+            <TimelineBox institutions={Institutions}/>
+          </Educations>
       </MainBox>
     </div>
   )
