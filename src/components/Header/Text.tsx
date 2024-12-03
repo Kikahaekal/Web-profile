@@ -11,7 +11,8 @@ const Text = () => {
             </p>
             <div className="italic">
                 <small className="text-white mt-2 block">FTTK</small>
-                <small className="text-white mt-2">Prodi Teknik Informatika | Junior Web Developer</small>
+                <small className="text-white mt-2 block">Prodi Teknik Informatika | Junior Web Developer</small>
+                <small className="text-white mt-2"><a className="text-white" href="https://github.com/Kikahaekal">github.com/Kikahaekal</a></small>
             </div>
         </div>
     )
