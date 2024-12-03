@@ -1,6 +1,6 @@
 import Image from "../Image"
 import Text from "./Text"
-import myPhoto from "../../assets/Poto-ig.jpg"
+import myPhoto from "../../../public/Poto-ig.jpg"
 
 const Header = () => {
     return (
